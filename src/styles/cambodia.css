@@ -1,0 +1,225 @@
+.Ratanakiri,
+.Mondolkiri,
+.Kracheh,
+.Svayrieng,
+.preyveng,
+.Kandal,
+.Takev,
+.Kampot,
+.Odarmeanchey,
+.Preahvihea,
+.Siemreab,
+.Banteaymeanchey,
+.Kohkong,
+.Pouthisat,
+.Battambang,
+.Krongpailin,
+.Steungtreng,
+.Preahsihanouk,
+.Kep,
+.Kampongchnang,
+.Kapongthom,
+.Kapongspeur,
+.Phnompenh,
+.Kampongcham,
+.Tbongkhmom
+{
+  fill: rgb(172, 172, 172);
+  stroke: rgb(72, 255, 72);
+  transition: fill stroke 0.4s ease-in-out;
+  transition: transform 0.3s ease;
+
+
+}
+
+
+
+
+.Ratanakiri:hover,
+.Mondolkiri:hover,
+.Kracheh:hover,
+.Svayrieng:hover,
+.preyveng:hover,
+.Kandal:hover,
+.Takev:hover,
+.Kampot:hover,
+.Odarmeanchey:hover,
+.Preahvihea:hover,
+.Siemreab:hover,
+.Banteaymeanchey:hover,
+.Kohkong:hover,
+.Pouthisat:hover,
+.Battambang:hover,
+.Krongpailin:hover,
+.Steungtreng:hover,
+.Preahsihanouk:hover,
+.Kep:hover,
+.Kampongchnang:hover,
+.Kapongthom:hover,
+.Kapongspeur:hover,
+.Phnompenh:hover,
+.Kampongcham:hover,
+.Tbongkhmom:hover {
+    fill: rgb(0, 0, 0);
+    top: 0px;
+  left: 0px;
+
+}
+.Ratanakiri:active,
+.Mondolkiri:active,
+.Kracheh:active,
+.Svayrieng:active,
+.preyveng:active,
+.Kandal:active,
+.Takev:active,
+.Kampot:active,
+.Odarmeanchey:active,
+.Preahvihea:active,
+.Siemreab:active,
+.Banteaymeanchey:active,
+.Kohkong:active,
+.Pouthisat:active,
+.Battambang:active,
+.Krongpailin:active,
+.Steungtreng:active,
+.Preahsihanouk:active,
+.Kep:active,
+.Kampongchnang:active,
+.Kapongthom:active,
+.Kapongspeur:active,
+.Phnompenh:active,
+.Kampongcham:active,
+.Tbongkhmom:active {
+  fill: rgb(0, 0, 0);
+}
+.RatanakiriActive,
+.MondolkiriActive, 
+.KrachehActive, 
+.SvayriengActive, 
+.preyvengActive,
+.KandalActive,
+.TakevActive,
+.KampotActive,
+.OdarmeancheyActive,
+.PreahviheaActive,
+.SiemreabActive,
+.BanteaymeancheyActive,
+.KohkongActive,
+.PouthisatActive,
+.BattambangActive,
+.KrongpailinActive,
+.SteungtrengActive,
+.PreahsihanoukActive,
+.KepActive,
+.KampongchnangActive,
+.KapongthomActive,
+.KapongspeurActive,
+.PhnompenhActive,
+.KampongchamActive,
+.TbongkhmomActive{
+  position: absolute;
+  transform: scale(2);
+  fill: rgb(0, 0, 0);
+  z-index: 5;
+  transition: all 0.5s;
+}
+.RatanakiriActive{
+  transform: scale(1.7) translate(80px, -240px);
+}
+.MondolkiriActive{
+  transform: scale(1.7) translate(80px, -460px);
+}
+.KrachehActive{
+  transform: scale(1.7) translate(240px, -470px);
+}
+.SvayriengActive {
+  transform: scale(2) translate(150px, -740px);
+}
+
+.preyvengActive {
+  transform: scale(2) translate(230px, -720px);
+}
+
+.KandalActive {
+  transform: scale(2) translate(320px, -700px);
+}
+
+.TakevActive {
+  transform: scale(2) translate(350px, -800px);
+}
+
+.KampotActive {
+  transform: scale(1.7) translate(580px, -820px);
+}
+
+.OdarmeancheyActive {
+  transform: scale(1.7) translate(700px, -180px);
+}
+
+.PreahviheaActive {
+  transform: scale(1.5) translate(580px, -280px);
+}
+
+.SiemreabActive {
+  transform: scale(1.2) translate(990px, -320px);
+}
+
+.BanteaymeancheyActive {
+  transform: scale(1.7) translate(840px, -260px);
+}
+
+.KohkongActive {
+  transform: scale(1.7) translate(750px, -730px);
+}
+
+.PouthisatActive {
+  transform: scale(1.7) translate(760px, -520px);
+}
+
+.BattambangActive {
+  transform: scale(1.7) translate(800px, -420px);
+}
+
+.KrongpailinActive {
+  transform: scale(2) translate(760px, -420px);
+}
+
+.SteungtrengActive {
+  transform: scale(1.7) translate(220px, -260px);
+}
+
+.PreahsihanoukActive {
+  transform: scale(1.7) translate(650px, -840px);
+}
+
+.KepActive {
+  transform: scale(3) translate(160px, -850px);
+}
+
+.KampongchnangActive {
+  transform: scale(1.7) translate(500px, -570px);
+}
+
+.KapongthomActive {
+  transform: scale(1.7) translate(420px, -450px);
+}
+
+.KapongspeurActive {
+  transform: scale(1.7) translate(550px, -670px);
+}
+
+.PhnompenhActive {
+  transform: scale(2.7) translate(120px, -660px);
+}
+
+.KampongchamActive {
+  transform: scale(1.7) translate(390px, -570px);
+}
+
+.TbongkhmomActive {
+  transform: scale(1.7) translate(270px, -600px);
+}
+.main_div{
+  z-index: 0;
+}
+

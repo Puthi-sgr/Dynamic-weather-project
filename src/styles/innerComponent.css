@@ -1,0 +1,144 @@
+.sunrise_sunset_container{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 20px;
+    width: 350px;
+    height: 130px;
+    justify-self: center;
+    align-self: center;
+}
+
+.feels_like_humidity_pressure_container{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 20px;
+    width: 350px;
+    height: 130px;
+    justify-self: center;
+    align-self: center;
+}
+.feels_like_container, 
+.humidity_container, 
+.pressure_container,
+.wind_speed_container,
+.wind_direction_container,
+.sunrise_container,
+.sunset_container,
+.visibility_container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 66px 33px 1fr;
+}
+.wind_speed_direction_container{
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 20px;
+    justify-self: center;
+    align-self: center;
+    width: 230px;
+    height: 130px;
+    
+}
+
+.feels_like_humidity_pressure_container *, .sunrise_sunset_container *, .wind_speed_direction_container *{
+    border: none;
+}
+
+.wind_direction_icon *, .wind_speed_icon *{
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.temperature{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 60px;
+    font-family: 'Alfa Slab One';
+    right: 70px;
+    top: 25px;
+    
+
+}
+.temperature_container{
+    position: relative;
+}
+/*.Location_name{
+    font-family: 'Open Sans';
+    font-size: 45px;
+    align-self: center;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    color: transparent;
+}
+  .Location_name ::before {
+    content: attr(data-text);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, #791dcf, #d10fc1, #c902ae, #ff00b3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  } */
+  .Location_name {
+    font-family: 'Open Sans';
+    font-size: 45px;
+    background-image: linear-gradient(120deg, #791dcf, #d10fc1, #c902ae, #ff00b3);
+    background-clip: text;
+    color: transparent;
+    align-self: center;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    overflow: hidden; /* Ensure overflow is hidden for the gradient effect */
+  }
+  
+  /*.Location_name::before {
+    content: attr(data-text);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, #791dcf, #d10fc1, #c902ae, #ff00b3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradientAnimation 5s linear infinite; /* Optional: Add animation 
+  } */
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+.Date, .Hour{
+    font-family: 'Open Sans';
+    color: white;
+}
+.Hour{
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 45px;
+    padding: 0 0 10px 0;
+}
+.Date{
+    padding: 12px 0 0 0;
+    font-weight: 200;
+    letter-spacing: 0px;
+    justify-self: center;
+}

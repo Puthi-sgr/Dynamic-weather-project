@@ -1,0 +1,58 @@
+.lower_class_container{
+    /*background: radial-gradient(circle, #6c1ab8, #ae009f, #8c02b3, #0d24a8);  */
+    background: linear-gradient(180.2deg, rgb(155, 74, 196) -6.9%, rgb(122, 34, 109) 76.7%);
+    display: grid;
+    height: 440px;
+    width: 600px;
+    border-radius: 20px;
+}
+.Lower_half{
+    border-radius: 20px;
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 9px );
+    border-radius: 10px;
+    border: 0px solid rgba( 255, 255, 255, 0.18 );
+    overflow: hidden;
+    box-shadow: 12px 7px 58px 0px rgba(108, 26, 184, 0.32);
+  -webkit-box-shadow: 12px 7px 58px 0px rgba(174, 0, 159, 0.32);
+  -moz-box-shadow: 12px 7px 58px 0px rgba(140, 2, 179, 0.32);
+    
+
+}
+.province_map_name_container{
+    display: flex;
+    grid-template-columns: 1fr;
+    height: 200px;
+    
+    	
+}
+.province_map{
+    background-color: transparent;
+    width: 80%;
+    height: 250px;
+}
+.province_name_container{
+    border-radius: 20px;
+    width: 100%;
+    display: flex;  
+    justify-content: center;
+}
+.date_time_container{
+    background-color: rgba(255, 255, 255, 0);
+    display: grid;
+    grid-template-rows: 60px 80px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.middle_to_lower_container{
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    height: 280px;
+}
+.temperature_container{
+    background-color: transparent;
+}
+
