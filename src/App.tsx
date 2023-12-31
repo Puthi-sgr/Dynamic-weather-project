@@ -58,11 +58,15 @@ const App = () => {
         <div className="App">
           <BrowserRouter>
             
-            
-
             <Home_button />
             <Routes>
               <Route path="/" element={
+                <div>
+                  Hero page
+                </div>
+              }/>
+
+              <Route path="/s" element={
               <div className="Home">
                 <Cambodia latHandler={latHandler}/>  
                 <WeatherPanel data={weatherData}/>

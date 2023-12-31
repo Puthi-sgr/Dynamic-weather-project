@@ -9,7 +9,7 @@ export const TemperatureComponent = ({data}:any) => {
 
     const temp_animation = {
         hidden: {opacity: 0, x: "-20%"},
-        visible: {opacity: 1, scale: 1, x: "calc(4vw - 50%)" , type: "spring"}
+        visible: {opacity: 1, scale: 1, x: "calc(0%)"}
     }
     
     return(
@@ -18,8 +18,8 @@ export const TemperatureComponent = ({data}:any) => {
                 key={temperature}
                 variants={temp_animation} 
                 className="temperature"
-                initial="hidden"
-                animate="visible"
+                initial={"hidden"}
+                animate={"visible"}
                 >
                 {temperature} 
                 <span style={{fontFamily: 'Open Sans', fontWeight: 'bold', fontSize: '28px', position: 'absolute', top: '-10px', right: '-20px'}}>
