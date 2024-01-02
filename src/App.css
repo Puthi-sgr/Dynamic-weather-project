@@ -9,7 +9,7 @@
 .nav_bar{
     display: flex;
     justify-content: flex-end;
-    background-color: rgba(245, 73, 144);
+    background-color: rgb(0, 0, 0);
 }
 
 .button-container {

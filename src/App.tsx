@@ -15,7 +15,7 @@ import {
   BrowserRouter,
 } from "react-router-dom";
 import { Home_button } from './nav_component/home_but';
-import {useContainer_generator_function} from './functions/3x3comp';
+import { Hero_page } from "./Hero"
 
 export interface PropsFunction {
   latHandler: (lat: number, long: number) => void
@@ -61,9 +61,7 @@ const App = () => {
             <Home_button />
             <Routes>
               <Route path="/" element={
-                <div>
-                  Hero page
-                </div>
+                <Hero_page />
               }/>
 
               <Route path="/s" element={
